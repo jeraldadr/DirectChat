@@ -635,7 +635,7 @@ def login_page(window=None, register=None):
     login.geometry("720x480")
     login.resizable(width=False, height=False)
     login.configure(width=400,height=300)
-    pls = tk.Label(login,text="ICS 32 Social Login", justify='center',
+    pls = tk.Label(login,text="Login Page", justify='center',
                     font="Helvetica 14 bold", bg='#36393e', fg='#FFFFFF')
     pls.place(relheight=0.05, relx=0.05, rely=0.01)
     labelName = tk.Label(login, text="Username: ",
